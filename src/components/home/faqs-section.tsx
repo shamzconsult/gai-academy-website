@@ -4,10 +4,15 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 
-export default function FrequentlyAskQuestions() {
-  const [openQuestion, setOpenQuestion] = useState(null);
+interface FAQ {
+  question: string;
+  answer: string;
+}
 
-  const showAnswer = (index: any) => {
+export default function FrequentlyAskQuestions() {
+  const [openQuestion, setOpenQuestion] = useState<number | null>(null);
+
+  const showAnswer = (index: number) => {
     setOpenQuestion(openQuestion === index ? null : index);
   };
 
@@ -26,7 +31,7 @@ export default function FrequentlyAskQuestions() {
         <h2 className="text-3xl  font-medium text-slate-900 text-center sm:text-left mb-4">
           Frequently Asked Questions
         </h2>
-        {FAQs.map((faq, index) => (
+        {FAQs.map((faq: FAQ, index: number) => (
           <div key={index} className="border border-slate-200 rounded-md mb-2">
             <div
               className="flex justify-between items-center p-4 cursor-pointer hover:bg-slate-100"

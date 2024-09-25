@@ -15,15 +15,15 @@ export default function Waitlist() {
         </div>
       </div>
       <div className="flex flex-col items-center sm:items-start gap-6 sm:gap-10 w-full sm:w-[60%]">
-        <h1 className="text-2xl md:text-4xl font-medium text-center sm:text-left">
-          Don't miss out on this exciting opportunity! Join our waitlist
+        <h1 className="text-2xl md:text-4xl font-medium text-center  max-w-[560px] sm:text-left">
+          Seize this exciting opportunity! Sign up for our waitlist today!
         </h1>
         <p className="text-slate-300 text-xl text-center sm:text-left max-w-[560px]">
           Sign up for our waitlist to be among the first to receive updates and
-          access to our newest course offerings. Don&rsquo;t miss out on this
-          exciting opportunity! By joining the waitlist, you&rsquo;ll also gain
-          exclusive insights and early notifications about future courses. Stay
-          ahead of the curve and enhance your learning journey with us!
+          access to our newest course offerings. Stay updated on this exciting
+          opportunity! By joining the waitlist, you will also gain exclusive
+          insights and early notifications about future courses. Stay ahead of
+          the curve and enhance your learning journey with us!
         </p>
         <Link href="/signup">
           <button className="bg-white text-xl text-slate-600 px-5 py-2.5 font-medium rounded-xl hover:bg-slate-400 hover:text-white duration-150">
