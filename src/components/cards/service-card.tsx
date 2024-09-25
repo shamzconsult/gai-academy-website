@@ -8,7 +8,7 @@ export default function ServiceCards() {
         <div className="w-full sm:w-[40%] flex justify-center">
           <div className="relative h-0 pb-[100%] w-full">
             <Image
-              src="https://cdn.hashnode.com/res/hashnode/image/upload/v1727110269073/35237b8e-0809-4334-90b4-567898edb28f.webp"
+              src="https://cdn.hashnode.com/res/hashnode/image/upload/v1727102414530/d8e8eb49-e826-44bd-9a78-7e9a1e0e968b.webp"
               alt="hero"
               layout="fill"
               className="rounded-full object-cover"
